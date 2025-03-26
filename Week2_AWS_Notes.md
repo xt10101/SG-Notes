@@ -78,7 +78,7 @@ _____
 >**Which Cloud Provider is best? What are the big three known for?**
 >>* AWS - Starts ups, Range, Scalabiltiyu amd reliability more documentation (been around longer)
 >>* Azure - Buiness  Syngery, Already using Microsoft services, hybrid cloud solutions.\
->>* GCP - AI/ML Work laods, best in class data analytics, kubernetes (invented), most popular container orchestration systems,
+>>* GCP - AI/ML Work laods, best in class data analytics, kubernetes (invented), most popular container orchestration systems,(10% cheaper)
 
 >**What sorts of thing do you usually pay for when using the cloud?**
 >>1. Compute
@@ -97,7 +97,23 @@ _____
   >>Security, Manged Security 
   >> All Advantages of cloud Computing
 
+  Collab
+  Culture
+  Monitoring
+  Lean/Automation
+
 
 
 
 ## Extra notes
+
+AWS Resources
+
+Git uses openSSH
+
+.pem - tracking, certificate
+
+Image - proncofiuguired software configuration 
+
+
+Port - where is an action taking place
