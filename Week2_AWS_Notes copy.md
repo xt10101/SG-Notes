@@ -5,7 +5,7 @@ Links to places(headers) in the document
 - [Week 2 AWS Notes](#week-2-aws-notes)
   - [Links](#links)
     - [AWS](#aws)
-  - [does not need own or maintain physical servers or data centers instead they are rented.](#does-not-need-own-or-maintain-physical-servers-or-data-centers-instead-they-are-rented)
+
 _____
 
 
@@ -17,8 +17,7 @@ _____
 
 >**What is Cloud Computing?**
 
-?>The Idea of decentralizing computer Resources/services by delivery it over the internet. instead of runnning computers or programs locally when can use a cloud provider to store and process the software and access the output over the internet.
-does not need own or maintain physical servers or data centers instead they are rented.
+>The Idea of decentralizing computer Resources/services by delivery it over the internet. instead of runnning computers or programs locally when can use a cloud provider to store and process the software and access the output over the internet Does not need own or maintain physical servers or data centers instead they are rented.
 ----
 >**How do we know if something is in the Cloud (on-prem vs the cloud)**
 >>If the company runs and maintains physical computer resoures on premise then its on prem, if the company access their computer resoures over the internet and rents them from a provider then its cloud
@@ -51,16 +50,18 @@ Can run multiple build and deployment processes simultaneously.
 * IaSS (Virutalized  computing resources (Storage, Server, Networking))
 
 >**What are some of the main advantages of the cloud?**
-  >>* **Flexibility** – Using the cloud, students can easily test and develop ideas and designs for new projects without running into problems relating to computer resources. This is because the cloud offers the ability to request access to almost any kind of hardware needed. 
-  >>* **Cost** –  These costs include the initial purchase or replacement of physical equipment and the cost of paying workers to manage the hardware. 
+>>* **Flexibility** – Using the cloud, students can easily test and develop ideas and designs for new projects without running into problems relating to computer resources. This is because the cloud offers the ability to request access to almost any kind of hardware needed. 
+>>* **Cost** –  These costs include the initial purchase or replacement of physical equipment and the cost of paying workers to manage the hardware. 
  >> * **Global** - if there is an internet connection use of most of the cloud services is possible from almost anywhere in the world. 
   The globality of the cloud helps simplify collaboration of multiple people since most of the setup is in place.  Moving services to the cloud also allows for the centralized management of software and other resources. 
-  >>* **Security** – The cloud can be more secure for storing data compared to on-premise.  Cloud providers are more likely to have specialized personnel for securing data.  Small and medium sized organisation providing security on-premise may have less specialised personnel who have responsibility for a broader range of tasks. 
+>>* **Security** – The cloud can be more secure for storing data compared to on-premise.  Cloud providers are more likely to have specialized personnel for securing data.  Small and medium sized organisation providing security on-premise may have less specialised personnel who have responsibility for a broader range of tasks. 
   Providers also offer tools to streamline areas of security the customer is responsible for such as access management through easy-to-use services such as IAM. 
 >> * **Scalable** – UWith on premise setups, it could easily overspend or underspend on compute resources.   Ordering and setting up new equipment is time consuming and compute resources need to be able to keep up with changing demand.  If growth predictions are inaccurate, an organisation risks buying insufficient or excessive compute resources, risking loss of profits or wasted investment. Cloud can avoid these outcomes with its ability to almost instantly increase or decrease the number of resources used
 
 >**What are some potential pitfalls/disadvantages of using the cloud?**
-  **Internet Reliance Downtime**, Reliablity -Cloud services depend on internet **connectivity**, so if the provider experiences server failures or maintenance, users may face downtime.
+  >>* **Internet Reliance Downtime**, Reliablity -Cloud services depend on internet 
+
+  >>* **connectivity**, so if the provider experiences server failures or maintenance, users may face downtime.
 
 >>* **Security** -Storing data on third party can cause security compliance issues and it can be an issue if you have not fine control over how its stored
 
@@ -69,9 +70,9 @@ Can run multiple build and deployment processes simultaneously.
 >>* **Compliance/Leagality**- can Store data in different countires which could break data protection laws depending what country your in.
 
 >**Have a look at marketshare? Who are the biggest Cloud providers?**
-AWS
-Microsoft Azure
-Google Cloud Platform
+>>* AWS
+>>* Microsoft Azure
+>>* Google Cloud Platform
 
 >**Which Cloud Provider is best? What are the big three known for?**
 >>* AWS - Starts ups, Range, Scalabiltiyu amd reliability more documentation (been around linger)
@@ -79,12 +80,11 @@ Google Cloud Platform
 >>* GCP - AI/ML Work laods, best in class data analytics, kubernetes (invented), most popular container orchestration systems,
 
 >**What sorts of thing do you usually pay for when using the cloud?**
-
-1. Compute
-1. Storage
-1. Networking
-1. Managed service
-1. Data Transfer (leaving AWS or moving Reigon)
+>>1. Compute
+>>1. Storage
+>>1. Networking
+>>1. Managed service
+>>1. Data Transfer (leaving AWS or moving Reigon)
   
 
 
@@ -93,6 +93,5 @@ Google Cloud Platform
   >>Stability, Backups fall over systems
   >>Scalability, Can Scale as neeed
   >>Speed, 
-  >>Security, Manged Scruity 
-
+  >>Security, Manged Security 
   >> All Advantages of cloud Computing
