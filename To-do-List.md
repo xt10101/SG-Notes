@@ -10,9 +10,9 @@ _____
 
 ## To Do
 
-* [ ] Redo SSH set up
+* [x] Redo SSH set up
 * [ ] Do Cloud Research
-* [ ] Create new Repo for notes
+* [x] Create new Repo for notes
 * [ ] Create Bash Script for SSH Agent
 * [ ] Finish HR Videos
 * [ ] -

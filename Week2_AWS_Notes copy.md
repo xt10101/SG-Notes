@@ -5,6 +5,7 @@ Links to places(headers) in the document
 - [Week 2 AWS Notes](#week-2-aws-notes)
   - [Links](#links)
     - [AWS](#aws)
+  - [does not need own or maintain physical servers or data centers instead they are rented.](#does-not-need-own-or-maintain-physical-servers-or-data-centers-instead-they-are-rented)
 _____
 
 
@@ -14,23 +15,79 @@ _____
 
 ### AWS
 
-> **What is HTTP?**
->> Hypertext Transfer Protocol (HTTP) application layer protocol
->> designed for communication between browsers and web server
->> Tradionally used to transfer HTML Documents.
+>**What is Cloud Computing?**
 
+?>The Idea of decentralizing computer Resources/services by delivery it over the internet. instead of runnning computers or programs locally when can use a cloud provider to store and process the software and access the output over the internet.
+does not need own or maintain physical servers or data centers instead they are rented.
+----
+>**How do we know if something is in the Cloud (on-prem vs the cloud)**
+>>If the company runs and maintains physical computer resoures on premise then its on prem, if the company access their computer resoures over the internet and rents them from a provider then its cloud
 
->**What is included within a HTTP response?**
->>* HTTP/1.1 200 OK (HTTP Method and status code)
->>* Server (name of server)
->>* Current Date and time
->>* Content-Type: html, Charset (what method to encode)
->>* Content Length
->>* Connection Keep Alive (Tries to keep the connection aveilable)
->>* Cookies
->>* Expires(when the conneciton expires)
->>* Cache-control (specifying to cache or not cache the request)
->>* !DOCTYPE HTML (Body of the HTTP Response)
->>* Pragma
-
+>**What are some popular cloud computing services and how are they used?**
+>>**Elastic Compute Cloud (EC2):**  EC2 allows for the creation of VMs. These VMs can be extensively customized with different processors, storage, networking and operating systems. This allows them to be optimized for their specific task without overspending on any resources. EC2 instances can also be deployed automatically using scripts.  This can make it very convenient if an organisation needs to launch a lot of VMs.
 >
+>>**Simple Storage Service (S3):** S3 is an object storage service. It can store any amount of data securely which can be accessed globally. S3 also offers a feature to easily backup data and optimise the cost of data storage through moving data into different archives based on how long you want to store it.
+>
+>>**Amazon Relational Database Service (Amazon RDS):** The Amazon RDS service allows users to quickly and easily create and use a number of well-known types of relational databases.  The main advantages include removing / reducing administration tasks of manging databases and being able to deploy and scale a large number of different databases efficiently using automation.
+>
+>>**CloudWatch and Cloud Trail**: Amazon CloudWatch is a service that allows organisations to collect data about the use of their IT resources, using AWS services or applications from on-premise or other cloud applications. 
+CloudWatch can also be used to visualize data and is used to understand trends and predictions about resource usage. This can be useful to understand future costs and help troubleshoot existing problems. CloudWatch can create alarms when resources go above or below certain thresholds. These alarms can be made to trigger an action such as notifying an employee.
+
+>>**AWS CodePipeline**: A fully managed continuous  delivery service
+Allows user to  A CI/CD service
+that automates the build, test, and deployment phases of your software release process.
+Can run multiple build and deployment processes simultaneously.
+>**Explain the four main cloud deployment models**
+  >>* public clouds - anybody can access the serivce
+  >>* Private clouds one-on-one enviroment fir a single customer does not share   hardware with anyone else
+  >>* Community, used by a group of organizations
+  >>* Hybrid clouds is a mix of public and private (store senstivity stuff private and usee public for the rest)
+ 
+
+
+>**Explain the three main types of cloud service**
+* Saas fully functional sofware servies over the internet
+* PaaS a dev or deploym,ent enviroment over the intenet(VMS)
+* IaSS (Virutalized  computing resources (Storage, Server, Networking))
+
+>**What are some of the main advantages of the cloud?**
+  >>* **Flexibility** – Using the cloud, students can easily test and develop ideas and designs for new projects without running into problems relating to computer resources. This is because the cloud offers the ability to request access to almost any kind of hardware needed. 
+  >>* **Cost** –  These costs include the initial purchase or replacement of physical equipment and the cost of paying workers to manage the hardware. 
+ >> * **Global** - if there is an internet connection use of most of the cloud services is possible from almost anywhere in the world. 
+  The globality of the cloud helps simplify collaboration of multiple people since most of the setup is in place.  Moving services to the cloud also allows for the centralized management of software and other resources. 
+  >>* **Security** – The cloud can be more secure for storing data compared to on-premise.  Cloud providers are more likely to have specialized personnel for securing data.  Small and medium sized organisation providing security on-premise may have less specialised personnel who have responsibility for a broader range of tasks. 
+  Providers also offer tools to streamline areas of security the customer is responsible for such as access management through easy-to-use services such as IAM. 
+>> * **Scalable** – UWith on premise setups, it could easily overspend or underspend on compute resources.   Ordering and setting up new equipment is time consuming and compute resources need to be able to keep up with changing demand.  If growth predictions are inaccurate, an organisation risks buying insufficient or excessive compute resources, risking loss of profits or wasted investment. Cloud can avoid these outcomes with its ability to almost instantly increase or decrease the number of resources used
+
+>**What are some potential pitfalls/disadvantages of using the cloud?**
+  **Internet Reliance Downtime**, Reliablity -Cloud services depend on internet **connectivity**, so if the provider experiences server failures or maintenance, users may face downtime.
+
+>>* **Security** -Storing data on third party can cause security compliance issues and it can be an issue if you have not fine control over how its stored
+
+>>* **Vendor Lock-in** - Can be diffcult to migrate to another cloud provider since it is not straight forward to move all your data. Can as EULA that limit what you can use the cloud resourses for
+
+>>* **Compliance/Leagality**- can Store data in different countires which could break data protection laws depending what country your in.
+
+>**Have a look at marketshare? Who are the biggest Cloud providers?**
+AWS
+Microsoft Azure
+Google Cloud Platform
+
+>**Which Cloud Provider is best? What are the big three known for?**
+>>* AWS - Starts ups, Range, Scalabiltiyu amd reliability more documentation (been around linger)
+>>* Azure - Buiness  Syngery, Already using Microsoft services, hybrid cloud slutions.\
+>>* GCP - AI/ML Work laods, best in class data analytics, kubernetes (invented), most popular container orchestration systems,
+
+>**What sorts of thing do you usually pay for when using the cloud?**
+
+1. Compute
+1. Storage
+1. Networking
+1. Managed service
+1. Data Transfer (leaving AWS or moving Reigon)
+  
+
+  Moving data across AWS regions → Charged.
+
+>**What are the four pillars of DevOps? How are they linked to cloud computing?**
+
