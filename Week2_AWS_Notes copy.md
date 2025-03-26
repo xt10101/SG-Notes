@@ -22,7 +22,7 @@ _____
 >>The idea of decentralizing computer resources/services. By delivering it over the internet, Instead of runnning computers or services locally,  a cloud provider  is used to store and process the software and access the output over the internet. the compnay does not need own or maintain physical servers or data centers instead they are rented.
 ----
 >**How do we know if something is in the Cloud (on-prem vs the cloud)**
->>If the company runs and maintains physical computer resources on premise then its on prem, if the company accesses their computer resoureses over the internet (accesses compute resources remotely) or rents them from a provider then its the cloud.
+>>If the company runs and maintains physical computer resources on premise then its on prem, if the company accesses their computer resoureses or services over the internet (accesses compute resources remotely) or rents them from a provider then its the cloud. 
 ---
 >**What are some popular cloud computing services and how are they used?**
 >>**Elastic Compute Cloud (EC2):**  EC2 allows for the creation of VMs. These VMs can be extensively customized with different processors, storage, networking and operating systems. This allows them to be optimized for their specific task without overspending on any resources. EC2 instances can also be deployed automatically using scripts.  This can make it very convenient if an organisation needs to launch a lot of VMs. Auto Scaling add or remove intances, Failover in different local zones
@@ -36,21 +36,23 @@ _____
 >>**AWS CodePipeline**: A fully managed continuous  delivery service. Allows user to create CI/CD service that automates the build, test, and deployment phases of your software release process. can run multiple build and deployment processes simultaneously.
 ---
 >**Explain the four main cloud deployment models**
-  >>* Public clouds - anybody can access the services (pulbic cloud provider)
+  >>* Public clouds - anybody can access the services (pulbic cloud providerm multi tenenant clouds)
   >>* Private clouds - one-on-one enviroment for a single customer does not share hardware with anyone else.(usually owns the hardware)
-  >>* Community - used by a group of organizations.
   >>* Hybrid clouds - a mix of public and private (store senstivity stuff private and usee public for the rest)
- 
+  >>* Multi Cloud - multiple Cloud Providers, avoid vendor  lock, more redundancy (more complexity)
 
 ---
 >**Explain the three main types of cloud service**
 >>* Saas: fully functional sofware servies over the internet
->>* PaaS: A dev or deploym,ent enviroment over the intenet(VMs)
+>>* PaaS: A dev or deployment enviroment over the intenet(VMs)
 >>* IaaS: Virutalized computing resources (Storage, Server, Networking)
+>>* FaaS: One Function does not need a server
+>>![aaSdiagram](Imagenotes/スクリーンショット%202025-03-26%20105137.png)
+
 ---
 >**What are some of the main advantages of the cloud?**
 >>* **Flexibility** – This is because the cloud offers the ability to request access to almost any kind of hardware needed and you do not have to wait around for it to arrive. Recreate Snapshots, make Backups of designs or systems. Easy to setup new resources.
->>* **Cost** –  The costs for on premise include the initial purchase or replacement of physical equipment and the cost of paying workers to manage the hardware. In cloud you can pay as you go, or rent resources and change the ammount you spend based on demand. Econermy at scale
+>>* **Cost** –  The costs for on premise include the initial purchase or replacement of physical equipment and the cost of paying workers to manage the hardware. In cloud you can pay as you go, or rent resources and change the ammount you spend based on demand. Econermy at scale Capex OPEx
  >> * **Global** - if there is an internet connection, use of most of the cloud services is possible from almost anywhere in the world. 
   The globality of the cloud helps simplify collaboration of multiple people since most of the setup is in place.  Moving services to the cloud also allows for the centralized management of software and other resources. 
 >>* **Security** – The cloud can be more secure for storing data compared to on-premise.  Cloud providers are more likely to have specialized personnel for securing data.  Small and medium sized organisation providing security on-premise may have less specialised personnel who have responsibility for a broader range of tasks. 
@@ -74,8 +76,8 @@ _____
 >>* Google Cloud Platform
 
 >**Which Cloud Provider is best? What are the big three known for?**
->>* AWS - Starts ups, Range, Scalabiltiyu amd reliability more documentation (been around linger)
->>* Azure - Buiness  Syngery, Already using Microsoft services, hybrid cloud slutions.\
+>>* AWS - Starts ups, Range, Scalabiltiyu amd reliability more documentation (been around longer)
+>>* Azure - Buiness  Syngery, Already using Microsoft services, hybrid cloud solutions.\
 >>* GCP - AI/ML Work laods, best in class data analytics, kubernetes (invented), most popular container orchestration systems,
 
 >**What sorts of thing do you usually pay for when using the cloud?**
