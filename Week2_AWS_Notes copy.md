@@ -1,10 +1,11 @@
 # Week 2 AWS Notes 
 
+
 ## Links
 Links to places(headers) in the document
 - [Week 2 AWS Notes](#week-2-aws-notes)
   - [Links](#links)
-  - [AWS](#aws)
+  - [Cloud Computing Questions](#cloud-computing-questions)
   - [Extra notes](#extra-notes)
 
 _____
@@ -14,11 +15,11 @@ _____
 
 
 
-## AWS
+## Cloud Computing Questions
 
 >**What is Cloud Computing?**
 
->The idea of decentralizing computer resources/services. By delivering it over the internet, Instead of runnning computers or services locally,  a cloud provider  is used to store and process the software and access the output over the internet. the compnay does not need own or maintain physical servers or data centers instead they are rented.
+>>The idea of decentralizing computer resources/services. By delivering it over the internet, Instead of runnning computers or services locally,  a cloud provider  is used to store and process the software and access the output over the internet. the compnay does not need own or maintain physical servers or data centers instead they are rented.
 ----
 >**How do we know if something is in the Cloud (on-prem vs the cloud)**
 >>If the company runs and maintains physical computer resources on premise then its on prem, if the company accesses their computer resoureses over the internet (accesses compute resources remotely) or rents them from a provider then its the cloud.
@@ -43,13 +44,13 @@ _____
 
 ---
 >**Explain the three main types of cloud service**
-* Saas: fully functional sofware servies over the internet
-* PaaS: A dev or deploym,ent enviroment over the intenet(VMs)
-* IaSS: Virutalized computing resources (Storage, Server, Networking)
+>>* Saas: fully functional sofware servies over the internet
+>>* PaaS: A dev or deploym,ent enviroment over the intenet(VMs)
+>>* IaaS: Virutalized computing resources (Storage, Server, Networking)
 ---
 >**What are some of the main advantages of the cloud?**
 >>* **Flexibility** – This is because the cloud offers the ability to request access to almost any kind of hardware needed and you do not have to wait around for it to arrive. Recreate Snapshots, make Backups of designs or systems. Easy to setup new resources.
->>* **Cost** –  The costs for on premise include the initial purchase or replacement of physical equipment and the cost of paying workers to manage the hardware. In cloud you can pay as you go, or rent resources and change the ammount you spend based on demand. 
+>>* **Cost** –  The costs for on premise include the initial purchase or replacement of physical equipment and the cost of paying workers to manage the hardware. In cloud you can pay as you go, or rent resources and change the ammount you spend based on demand. Econermy at scale
  >> * **Global** - if there is an internet connection, use of most of the cloud services is possible from almost anywhere in the world. 
   The globality of the cloud helps simplify collaboration of multiple people since most of the setup is in place.  Moving services to the cloud also allows for the centralized management of software and other resources. 
 >>* **Security** – The cloud can be more secure for storing data compared to on-premise.  Cloud providers are more likely to have specialized personnel for securing data.  Small and medium sized organisation providing security on-premise may have less specialised personnel who have responsibility for a broader range of tasks. 
