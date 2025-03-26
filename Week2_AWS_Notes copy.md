@@ -4,7 +4,8 @@
 Links to places(headers) in the document
 - [Week 2 AWS Notes](#week-2-aws-notes)
   - [Links](#links)
-    - [AWS](#aws)
+  - [AWS](#aws)
+  - [Extra notes](#extra-notes)
 
 _____
 
@@ -13,57 +14,54 @@ _____
 
 
 
-### AWS
+## AWS
 
 >**What is Cloud Computing?**
 
->The Idea of decentralizing computer Resources/services by delivery it over the internet. instead of runnning computers or programs locally when can use a cloud provider to store and process the software and access the output over the internet Does not need own or maintain physical servers or data centers instead they are rented.
+>The idea of decentralizing computer resources/services. By delivering it over the internet, Instead of runnning computers or services locally,  a cloud provider  is used to store and process the software and access the output over the internet. the compnay does not need own or maintain physical servers or data centers instead they are rented.
 ----
 >**How do we know if something is in the Cloud (on-prem vs the cloud)**
->>If the company runs and maintains physical computer resoures on premise then its on prem, if the company access their computer resoures over the internet and rents them from a provider then its cloud
-
+>>If the company runs and maintains physical computer resources on premise then its on prem, if the company accesses their computer resoureses over the internet (accesses compute resources remotely) or rents them from a provider then its the cloud.
+---
 >**What are some popular cloud computing services and how are they used?**
->>**Elastic Compute Cloud (EC2):**  EC2 allows for the creation of VMs. These VMs can be extensively customized with different processors, storage, networking and operating systems. This allows them to be optimized for their specific task without overspending on any resources. EC2 instances can also be deployed automatically using scripts.  This can make it very convenient if an organisation needs to launch a lot of VMs.
+>>**Elastic Compute Cloud (EC2):**  EC2 allows for the creation of VMs. These VMs can be extensively customized with different processors, storage, networking and operating systems. This allows them to be optimized for their specific task without overspending on any resources. EC2 instances can also be deployed automatically using scripts.  This can make it very convenient if an organisation needs to launch a lot of VMs. Auto Scaling add or remove intances, Failover in different local zones
 >
 >>**Simple Storage Service (S3):** S3 is an object storage service. It can store any amount of data securely which can be accessed globally. S3 also offers a feature to easily backup data and optimise the cost of data storage through moving data into different archives based on how long you want to store it.
 >
 >>**Amazon Relational Database Service (Amazon RDS):** The Amazon RDS service allows users to quickly and easily create and use a number of well-known types of relational databases.  The main advantages include removing / reducing administration tasks of manging databases and being able to deploy and scale a large number of different databases efficiently using automation.
 >
->>**CloudWatch and Cloud Trail**: Amazon CloudWatch is a service that allows organisations to collect data about the use of their IT resources, using AWS services or applications from on-premise or other cloud applications. 
-CloudWatch can also be used to visualize data and is used to understand trends and predictions about resource usage. This can be useful to understand future costs and help troubleshoot existing problems. CloudWatch can create alarms when resources go above or below certain thresholds. These alarms can be made to trigger an action such as notifying an employee.
-
->>**AWS CodePipeline**: A fully managed continuous  delivery service
-Allows user to  A CI/CD service
-that automates the build, test, and deployment phases of your software release process.
-Can run multiple build and deployment processes simultaneously.
+>> **CloudWatch and Cloud Trail:** Amazon CloudWatch is a service that allows organisations to collect data about the use of their IT resources, using AWS services or applications from on-premise or other cloud applications. CloudWatch can also be used to visualize data and is used to understand trends and predictions about resource usage. This can be useful to understand future costs and help troubleshoot existing problems. CloudWatch can create alarms when resources go above or below certain thresholds. These alarms can be made to trigger an action such as notifying an employee.
+---
+>>**AWS CodePipeline**: A fully managed continuous  delivery service. Allows user to create CI/CD service that automates the build, test, and deployment phases of your software release process. can run multiple build and deployment processes simultaneously.
+---
 >**Explain the four main cloud deployment models**
-  >>* public clouds - anybody can access the serivce
-  >>* Private clouds one-on-one enviroment fir a single customer does not share   hardware with anyone else
-  >>* Community, used by a group of organizations
-  >>* Hybrid clouds is a mix of public and private (store senstivity stuff private and usee public for the rest)
+  >>* Public clouds - anybody can access the services (pulbic cloud provider)
+  >>* Private clouds - one-on-one enviroment for a single customer does not share hardware with anyone else.(usually owns the hardware)
+  >>* Community - used by a group of organizations.
+  >>* Hybrid clouds - a mix of public and private (store senstivity stuff private and usee public for the rest)
  
 
-
+---
 >**Explain the three main types of cloud service**
-* Saas fully functional sofware servies over the internet
-* PaaS a dev or deploym,ent enviroment over the intenet(VMS)
-* IaSS (Virutalized  computing resources (Storage, Server, Networking))
-
+* Saas: fully functional sofware servies over the internet
+* PaaS: A dev or deploym,ent enviroment over the intenet(VMs)
+* IaSS: Virutalized computing resources (Storage, Server, Networking)
+---
 >**What are some of the main advantages of the cloud?**
->>* **Flexibility** – Using the cloud, students can easily test and develop ideas and designs for new projects without running into problems relating to computer resources. This is because the cloud offers the ability to request access to almost any kind of hardware needed. 
->>* **Cost** –  These costs include the initial purchase or replacement of physical equipment and the cost of paying workers to manage the hardware. 
- >> * **Global** - if there is an internet connection use of most of the cloud services is possible from almost anywhere in the world. 
+>>* **Flexibility** – This is because the cloud offers the ability to request access to almost any kind of hardware needed and you do not have to wait around for it to arrive. Recreate Snapshots, make Backups of designs or systems. Easy to setup new resources.
+>>* **Cost** –  The costs for on premise include the initial purchase or replacement of physical equipment and the cost of paying workers to manage the hardware. In cloud you can pay as you go, or rent resources and change the ammount you spend based on demand. 
+ >> * **Global** - if there is an internet connection, use of most of the cloud services is possible from almost anywhere in the world. 
   The globality of the cloud helps simplify collaboration of multiple people since most of the setup is in place.  Moving services to the cloud also allows for the centralized management of software and other resources. 
 >>* **Security** – The cloud can be more secure for storing data compared to on-premise.  Cloud providers are more likely to have specialized personnel for securing data.  Small and medium sized organisation providing security on-premise may have less specialised personnel who have responsibility for a broader range of tasks. 
   Providers also offer tools to streamline areas of security the customer is responsible for such as access management through easy-to-use services such as IAM. 
 >> * **Scalable** – UWith on premise setups, it could easily overspend or underspend on compute resources.   Ordering and setting up new equipment is time consuming and compute resources need to be able to keep up with changing demand.  If growth predictions are inaccurate, an organisation risks buying insufficient or excessive compute resources, risking loss of profits or wasted investment. Cloud can avoid these outcomes with its ability to almost instantly increase or decrease the number of resources used
 
 >**What are some potential pitfalls/disadvantages of using the cloud?**
-  >>* **Internet Reliance Downtime**, Reliablity -Cloud services depend on internet 
+  >>* **Reliablity** - Cloud services depend on internet 
 
-  >>* **connectivity**, so if the provider experiences server failures or maintenance, users may face downtime.
+  >>* **connectivity** - if the provider experiences server failures or maintenance, users may face downtime.
 
->>* **Security** -Storing data on third party can cause security compliance issues and it can be an issue if you have not fine control over how its stored
+>>* **Security** - Storing data on third party can cause security compliance issues and it can be an issue if you have not fine control over how its stored
 
 >>* **Vendor Lock-in** - Can be diffcult to migrate to another cloud provider since it is not straight forward to move all your data. Can as EULA that limit what you can use the cloud resourses for
 
@@ -95,3 +93,8 @@ Can run multiple build and deployment processes simultaneously.
   >>Speed, 
   >>Security, Manged Security 
   >> All Advantages of cloud Computing
+
+
+
+
+## Extra notes
