@@ -87,7 +87,12 @@ Google Cloud Platform
 1. Data Transfer (leaving AWS or moving Reigon)
   
 
-  Moving data across AWS regions → Charged.
+
 
 >**What are the four pillars of DevOps? How are they linked to cloud computing?**
+  >>Stability, Backups fall over systems
+  >>Scalability, Can Scale as neeed
+  >>Speed, 
+  >>Security, Manged Scruity 
 
+  >> All Advantages of cloud Computing
