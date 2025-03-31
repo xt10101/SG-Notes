@@ -3,24 +3,27 @@ sudo systemctl stop packagekit
 
 
 # update
-sudo apt update -y
+sudo apt-get update -y
 
 # upgrade
 
-DEBIAN_FRONTEND=noninteractive sudo apt upgrade -y
+sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
 
 # install nginx
 
 
-DEBIAN_FRONTEND=noninteractive sudo apt install nginx -y
+sudo DEBIAN_FRONTEND=noninteractive apt-get install nginx -y
 
 sudo systemctl restart nginx
 
 # enable nginx
 sudo systemctl enable nginx
 
+
+
+#replace uri linbe with proxy pass line
 sudo sed -i 's#try_files $uri $uri/ =404#proxy_pass http://localhost:3000#' /etc/nginx/sites-available/default
- 
+#sudo sed -i '51c\proxy_pass http://127.0.0.1:3000;' /etc/nginx/sites-available/default
 sudo systemctl restart nginx
 
 
@@ -38,7 +41,7 @@ rm -rf Code-Bank/
 
 DEBIAN_FRONTEND=noninteractive curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\ #give operating system a specific verison to install
 
-DEBIAN_FRONTEND=noninteractive sudo apt-get install -y nodejs
+sudo DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs
 cd app
 #check version
 node -v
@@ -48,8 +51,21 @@ node -v
 sudo npm install
 
 #start app as a background process
-nohup npm start app.js &
-bg
+# npm start app.js &
+#bg
+
+
+
+sudo DEBIAN_FRONTEND=noninteractive npm install pm2 -g
+
+# kill any running node processes that could interfere
+pm2 kill
+
+# run the app with pm2 (runs in background by default)
+pm2 start app.js 
+
+
+pm2 startup #keep your app running after a server restart
 
 
 

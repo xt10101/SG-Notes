@@ -301,3 +301,7 @@ example chmod -x
 
 
 /etc/ - where configurations are usually saved 
+
+idempotent if it can be repeated any number of times with the same result
+
+.bashrc (persistent varaible)

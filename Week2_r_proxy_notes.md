@@ -74,7 +74,7 @@ location / {
      try_files $uri $uri/ =404;
 }
 ```
->Remove the line inside location and add the line: `proxy_pass http://localhost:3000/;`
+>Remove the line inside location and add the line: `proxy_pass http://localhost:3000/;` to change the default location
 **Example:**
 ![variablecomapre](Imagenotes/スクリーンショット%202025-03-28%20161108.png)
 

@@ -36,24 +36,10 @@ scp /path/to/local/file username@remote_host:/path/to/remote/destination
 
 scp -i ~/.ssh/tech503-tom-aws-key.pem nodejs20-sparta-test-app.zip ubuntu@ec2-18-203-92-148.eu-west-1.compute.amazonaws.com:~
 
- (has to be a zip folder)
-
- sudo apt-get install unzip
-unzip your_zip_file.zip
-
-sudo nano /etc/needrestart/needrestart.conf
-$nrconf{restart} = 'a';
 
 
 
-
-Step 3: Automate the implementation of a reverse proxy in a new app deployment script (e.g. app_deploy_with_rp.sh)
-Add commands to automate the config change
-You will need to use the `sed` command
-
-
-
-Post your documentation in the chat by 17:00.
-
-
-add notes on why what we are studying is importannt
+Ubuntu 22.04
+Mongo version 7.0.6
+Need following components: org, database, server, mongosh, mongos, tools
+Need to connect app to db on APP machine
