@@ -1,14 +1,16 @@
 #!/bin/bash
 sudo systemctl stop packagekit
 
-export DEBIAN_FRONTEND=noninteractive
+
 # update
 sudo apt update -y
 
 # upgrade
+
 DEBIAN_FRONTEND=noninteractive sudo apt upgrade -y
 
 # install nginx
+
 
 DEBIAN_FRONTEND=noninteractive sudo apt install nginx -y
 
@@ -16,6 +18,10 @@ sudo systemctl restart nginx
 
 # enable nginx
 sudo systemctl enable nginx
+
+sudo sed -i 's#try_files $uri $uri/ =404#proxy_pass http://0.0.0.0:3000#' /etc/nginx/sites-available/default
+ 
+sudo systemctl restart nginx
 
 
 #get app code github repo 
@@ -43,8 +49,8 @@ sudo npm install
 
 #start app as a background process
 nohup npm start app.js &
-
 bg
+
 
 
 

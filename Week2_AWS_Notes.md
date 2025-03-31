@@ -44,7 +44,7 @@ _____
 ---
 >**Explain the three main types of cloud service**
 >>* Saas: fully functional sofware servies over the internet
->>* PaaS: A dev or deployment enviroment over the intenet(VMs)
+>>* PaaS: A dev or deployment enviroments over the intenet(VMs), allowing developers to build, deploy, and manage applications without worrying about the underlying infrastructure.
 >>* IaaS: Virutalized computing resources (Storage, Server, Networking)
 >>* FaaS: One Function does not need a server
 >>![aaSdiagram](Imagenotes/スクリーンショット%202025-03-26%20105137.png)

@@ -54,7 +54,7 @@ Can roll back to prior versions, have mutiple people working on the same project
 
 
 >**What is GitHub**
->>* denctralised version of the the Repo
+>>* dencentralised version of the the Repo
 >>* A provider
 
 

@@ -8,9 +8,6 @@ Links to places(headers) in the document
   - [Linux Commmnads](#linux-commmnads)
   - [Linux Notes](#linux-notes)
   - [Linux Questions](#linux-questions)
-- [Check if the file exists](#check-if-the-file-exists)
-- [Use sed to modify the line](#use-sed-to-modify-the-line)
-- [Check if the operation was successful](#check-if-the-operation-was-successful)
 
 _____
 
@@ -157,31 +154,36 @@ exit
 ```bash
 sudo apt install nginx -y
 sudo systemctl status nginx
-sudo systemctl stop nginx
-sudo systemctl restart nginx
+sudo systemctl stop nginx #shuts down the Nginx server
+sudo systemctl restart nginx #turn the server off and on (updates any configureations)
 sudo systemctl enable nginx #run on startup
 
 ```
 >Downloads and check status of nginx web server. (go to IP address)
 grep -w word (look for specifc strings with blank space each side)
 systemctl = System control
-
+```bash
+kill -1 #(most graceful)
+kill -15 #(used if the process has child processes)
+kill -9 #(most brutal, don't use on services than contiunally writes)
+```
 ```bash
 tree
 ```
 >shows all lower directories and files 
 
-$ sudo systemctl status nginx
 
-Sleep 3 runs stops terminal access  (can space out commands delays (can do things to fast))
 
-jobs -l
-kill -1 (most graceful)
-kill -15 (used if the process has child processes)
-kill -9 (most brutal, don't use on services than contiunally writes)
+`Sleep 3`: runs stops terminal access  (can space out commands delays (can do things to fast))
+
+```bash
+jobs -l #Lists the background and suspended jobs running in the current shell session, -l  shows the process IDs
+```
+
+
 ## Linux Notes
 
->>>**Color codes:**
+>**Color codes:**
 >>White file
 >>Blue Directory
 >>green executable
@@ -191,7 +193,7 @@ kill -9 (most brutal, don't use on services than contiunally writes)
 >
 >>Linux is case sensitive
 >
->>Linux has a list of what is installed or it knows where to find packages
+>>Linux has a list of what is installed and it knows where to find packages
 >
 >>Can update its list about new packages
 
@@ -251,7 +253,7 @@ whenever a command is used linux creates a new process
 
 >**How can you end a process?**
 ```bash
-kill <PID>
+
 ps 
 ps -e
 ```
@@ -259,8 +261,9 @@ chown - change owner
 
 printenv - prints all enviroment variables
 
-#! - shabang
-telling the operating system which shell to use
+'#!' - **shabang**
+Used in scripts to specify the interpreter.
+'#!/bin/bash' - the path to the shell 
 
 >**Explain the Linux permission system to me**
 >>* Read (r)  open and view content
@@ -294,39 +297,6 @@ chmod -x
 = sets the exact permission.
 
 example chmod -x
-If time:
-
-Find out how to avoid/fix the "purple screen" problem?
-
-
-DB_HOST=______
 
 
 
-put folder opn git hub make repo?
-
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\ #give operating system a specific verison to install
-sudo apt-get install -y nodejs
-
-#download note js
-
-
-
-CONFIG_FILE="/etc/needrestart/needrestart.conf"
-
-# Check if the file exists
-if [ ! -f "$CONFIG_FILE" ]; then
-    echo "Error: $CONFIG_FILE not found!"
-    exit 1
-fi
-
-# Use sed to modify the line
-sed -i 's/#\$nrconf{restart} = "i";/\$nrconf{restart} = "a"; # restart the services automatically/' "$CONFIG_FILE"
-
-# Check if the operation was successful
-if [ $? -eq 0 ]; then
-    echo "Successfully updated the needrestart configuration."
-else
-    echo "Error: Failed to update the configuration."
-    exit 1
-fi

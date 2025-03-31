@@ -24,7 +24,7 @@ _____
 * [ ] Practice TMAY
 * [ ] More Flash cards
 * [ ] Tidy up notes
-
+* [ ] cloud, linux, github
 ## General Notes
 sudo systemctl stop packagekit
 
@@ -50,7 +50,7 @@ $nrconf{restart} = 'a';
 Step 3: Automate the implementation of a reverse proxy in a new app deployment script (e.g. app_deploy_with_rp.sh)
 Add commands to automate the config change
 You will need to use the `sed` command
-Please write up the steps of how to implement the reverse proxy in the same file as you research (step 1).
+
 
 
 Post your documentation in the chat by 17:00.

@@ -66,6 +66,7 @@ Index number of the client
 >>* PATCH
 >>* OPTIONS
 >>* TRACE - Loopback
+Requests methods, also known as HTTP methods, define the actions that can be performed on a given resource in a web server. 
 
 >**What are they (cookies) used for?**
 Enable the storage of stateful infomation.

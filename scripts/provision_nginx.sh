@@ -13,3 +13,10 @@ sudo apt install nginx -y
 sudo systemctl restart nginx
 #enable nginx
 sudo systemctl enable nginx
+
+
+
+
+
+
+sudo systemctl restart nginx
