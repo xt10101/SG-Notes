@@ -19,7 +19,7 @@ sudo systemctl restart nginx
 # enable nginx
 sudo systemctl enable nginx
 
-sudo sed -i 's#try_files $uri $uri/ =404#proxy_pass http://0.0.0.0:3000#' /etc/nginx/sites-available/default
+sudo sed -i 's#try_files $uri $uri/ =404#proxy_pass http://localhost:3000#' /etc/nginx/sites-available/default
  
 sudo systemctl restart nginx
 

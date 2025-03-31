@@ -300,3 +300,4 @@ example chmod -x
 
 
 
+/etc/ - where configurations are usually saved 

@@ -15,7 +15,7 @@ _____
 
 
 
->>**What is a reverse proxy? Why implement one?**
+>**What is a reverse proxy? Why implement one?**
 >
 >>A service, server or app that sits in-front of other servers that catches and inpects incoming requets before forwarding them to the web server and then returning the server's response.
 >
@@ -74,7 +74,7 @@ location / {
      try_files $uri $uri/ =404;
 }
 ```
->Remove the line inside location and add the line: `proxy_pass http://<Public-IP>:3000/;`
+>Remove the line inside location and add the line: `proxy_pass http://localhost:3000/;`
 **Example:**
 ![variablecomapre](Imagenotes/スクリーンショット%202025-03-28%20161108.png)
 
@@ -101,3 +101,6 @@ location / {
 
 
 
+
+
+Swap to localhost
