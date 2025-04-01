@@ -39,7 +39,4 @@ scp -i ~/.ssh/tech503-tom-aws-key.pem nodejs20-sparta-test-app.zip ubuntu@ec2-18
 
 
 
-Ubuntu 22.04
-Mongo version 7.0.6
-Need following components: org, database, server, mongosh, mongos, tools
-Need to connect app to db on APP machine
+Verify that the DB Install script works - Then Manually do the remaining steps(change config, start mongd, change DB_HOST env var on app instance 3. improve DB script, 4 Automate Envar script)

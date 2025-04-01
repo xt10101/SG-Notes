@@ -36,29 +36,21 @@ sudo apt-get update -y
 
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y mongodb-org=7.0.6 mongodb-org-database=7.0.6 mongodb-org-server=7.0.6 mongodb-mongosh=2.1.5 mongodb-org-mongos=7.0.6 mongodb-org-tools=7.0.6
 
-#check is mongo is installed
-sudo systemctl status mongod
+
 #change configuration who can connect to the database change to 0.0.0.0
-sudo nano /etc/mongod.conf
-
-
+sudo sed -i 's#127.0.0.1#0.0.0.0#' /etc/mongod.conf
 #Change the BindIp line to 0.0.0.0 (from 127.0.0.1)
 
 
 #start mongod
+sudo systemctl enable mongod
 sudo systemctl start mongod
 #start check
-sudo systemctl status mongod
+
+
  
 
 #other app
 
-
-export DB_HOST=mongodb://3.252.157.239:27017/posts
-cd app
-sudo npm install
-
-node seeds/seed.js
-pm2 start app.js
 
 

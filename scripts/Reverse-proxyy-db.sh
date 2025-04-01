@@ -34,8 +34,13 @@ mv Code-Bank/nodejs20-sparta-test-app/app/ ~
 rm -rf Code-Bank/
 
 
+#connect to Database
+export DB_HOST=mongodb://0.0.0.0:27017/posts
 
 
+#sudo apt install awscli -y
+
+#export DB_HOST=mongodb://$(aws ec2 describe-instances --instance-ids i-06efe2f40afbbf264 --query "Reservations[*].Instances[*].PublicIpAddress" --output text):27017/posts
 
 #install verion 20.x
 
@@ -54,20 +59,18 @@ sudo npm install
 # npm start app.js &
 #bg
 
-
+node seeds/seed.js
 
 sudo DEBIAN_FRONTEND=noninteractive npm install pm2 -g
 
 # kill any running node processes that could interfere
 pm2 kill
 
-pm2 startup #keep your app running after a server restart
-
 # run the app with pm2 (runs in background by default)
 pm2 start app.js 
 
 
-
+pm2 startup #keep your app running after a server restart
 
 
 

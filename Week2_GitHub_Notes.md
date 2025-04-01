@@ -82,3 +82,6 @@ The tilde (~) is a Linux "shortcut" to denote a user's home directory
 
 
 
+Git rebase move comits into another branch(main) keeps hisotry clean rewrites histpory
+
+Git merge proservees historys

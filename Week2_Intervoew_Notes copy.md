@@ -177,3 +177,53 @@ on my feet, struggle to get the word how I deal with that
 Not done the task before
 
 ask if its similar to anything opther projects
+
+
+
+
+Interview Prep Notes
+
+Ice Breaker
+
+25 min interviews
+
+bring computer
+
+
+self
+background univercity
+
+What you leraned so far
+
+
+why do you want to be a devops
+amibtions intrests in lockheed
+
+
+Uk goverment, don't mention the UK security agency
+
+
+Practice comptency questions
+
+Worked well with a team
+
+
+Talk about what has been covered on SG
+
+Q/A for LM
+
+Questions what do you want to know about
+
+Do we bring a pack lunch
+
+What is the big targets for 2025
+
+What is the reason to bring in DevOps
+
+8 year journey
+
+
+most positive wording what are you trying to achieve with the customer
+
+
+Bring Laptop

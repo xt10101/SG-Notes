@@ -244,7 +244,7 @@ source ~/.bashrc #run every time a new shell creation is created
 >**How can we see running processes?**
 >>A instance of a program in running
 whenever a command is used linux creates a new process
-
+job -i
 >**What are child processes?**
 >>A new process created and used by another process
 
@@ -261,7 +261,7 @@ chown - change owner
 
 printenv - prints all enviroment variables
 
-'#!' - **shabang**
+'#!' - **shebang**
 Used in scripts to specify the interpreter.
 '#!/bin/bash' - the path to the shell 
 
