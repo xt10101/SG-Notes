@@ -35,7 +35,7 @@ rm -rf Code-Bank/
 
 
 #connect to Database
-export DB_HOST=mongodb://0.0.0.0:27017/posts
+export DB_HOST=mongodb://54.76.242.30:27017/posts
 
 
 #sudo apt install awscli -y

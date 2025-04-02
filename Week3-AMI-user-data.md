@@ -56,6 +56,7 @@ You can create an AMI from your Amazon EC2 instances and then use it to launch i
 
 /home/ubuntu/app
 
+Networking and configuration settings are not loaded yet
 
 #### AWS CLI
 

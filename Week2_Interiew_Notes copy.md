@@ -105,7 +105,7 @@ SeniorDevops bringing value to the comapny
 how did you deal with it
 what did you learn?
 Proxmox set up
-Look at the undementals
+Look at the fundementals
 FYP Pratcical project
 
 
@@ -116,7 +116,6 @@ follow up email
 
 Tech Questions
 
-Public, Pirvate hybrid
 
 
 
@@ -131,15 +130,33 @@ Pens
 Bigger Projects and bigger challeges
 Us Organizations
 
-Why do you want to work for Lockheed matrin
+**What do you know about lockheed martin?**
+https://lockheedmartinuk.mediaroom.com/U-K-Ministry-of-Defence-Awards-Lockheed-Martin-Contract-to-Develop-a-Flexible-Satellite-Mission-Control-System
 
-Where there were started
+London, February 14, 2024 –
 
-Stealth Bomber
+ding helicopters, integrated air and missile defense, littoral warfare, undersea warfare, radar, electronic warfare, cyber solution
+Hybrid 5G-Tactical Mesh Network live in a multi-domain environment — a significant step toward ensuring the Department of Defense has seamless access to critical information.
 
-Drones
+The U.K. Ministry of Defence (MOD) has awarded Lockheed Martin (NYSE: LMT) a research and development contract to provide a secure, open source, ground-segment software solution to task, monitor and control its future space capabilities.
 
+The U.K. MOD’s BEROE programme will assist the MOD to understand how best to control its future ISTARI constellation of low orbit general purpose Earth observation satellites, further enhancing the U.K.’s multi-domain integration efforts.
+Over one hundred years ago, on August 16, 1912, Glenn L. Martin established the Glenn L. Martin Company in Los Angeles, California.
+Rotary and Mission Systems
+
+https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
+**Why do you want to work for Lockheed matrin**
+
+https://www.lockheedmartin.com/en-gb/index.html
 I feel Passionated about the country I grew up in, I want to Contrbute
+
+Difficult challenges , improve myslef
+dvancing scientific discovery and delivering innovative solutions that help our customers keep people safe.
+to make a meaningful difference
+Aim to be the top of your profcienty (show your ambition)
+
+
+今日会えたことに感謝している。
 
 I have a Japanese Phrase
 
@@ -147,43 +164,42 @@ I have a Japanese Phrase
 (poltics) Don't have enough infomation(be confident in what you don't know_
 
 
-Aim to be the top of your profcienty (show your ambition)
 
 
 Why did you not stay with NG
 
+# Tips
 Listen really carefully aobut the roile
 
 
-What does the rolve involve me doing
-
-Who am I working with
-
-If I am Successful where can that lead me in the comapany
-
-
-Life is all about making Choices
-
 (Growing in multiple directions)
 
-How that presents
 
 Smile more
 
 on my feet, struggle to get the word how I deal with that
 
+**Questions**
+
+What does the role involve me doing?
+
+Who am I working with (what specifc area of the customer will I work with)
 
 
-Not done the task before
+If I am Successful where can that lead me in the comapany (what could I be doing after the customer contract is finished?)
 
-ask if its similar to anything opther projects
+Do we bring a pack lunch?
 
+What is the big targets for 2025?
 
+What is the reason to bring in DevOps Eningeers?
 
 
 Interview Prep Notes
-
-Ice Breaker
+Not done the task before
+Working anywhere is In Lockheed martin?
+ask if its similar to anything opther projects
+opinion based question
 
 25 min interviews
 
@@ -214,16 +230,51 @@ Q/A for LM
 
 Questions what do you want to know about
 
-Do we bring a pack lunch
 
-What is the big targets for 2025
-
-What is the reason to bring in DevOps
 
 8 year journey
+
+
+Hi Tom, I wanted make sure I got back to you before the end of the day. Here are my quick thoughts.
+ 
+1. Okay but not sure if Paul can say
+2. Would reword this to come from the perspective if "where do you see us going if we do well ob this first contract". Good to mention "if I get the role"
+3. Don't aak this, too basic, little value from their side.
+4. Okay question, I wonder if you vould get this via research though? Or at least refer to a target you are aware they may have.
+5. Not a bad question but not sure Paul will be able to answer. It's the customer that needs DevOps engineers so that might cloud things.
+ 
 
 
 most positive wording what are you trying to achieve with the customer
 
 
 Bring Laptop
+
+
+Comptency questions
+
+**Pleasantly Suprised yourself**
+
+A Level maths test
+Automation of synthetic data
+
+
+**Tell me about a time you stood up for yourself**
+??? Maths Tutor  Nevorus Tick "talked it out"
+
+
+
+**Had alot of fun working**
+Automation of synthetic data
+
+
+**learned alot in a short space of time**
+Carbon mgaics proxmox, VM server set up
+Cisco Books Multiple Choice questions
+
+**A time you where proud of a project you completed**
+Dolibarr update
+Comptency questions
+
+
+Send extra questions to Nish
