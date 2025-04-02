@@ -138,22 +138,23 @@ London, February 14, 2024 –
 ding helicopters, integrated air and missile defense, littoral warfare, undersea warfare, radar, electronic warfare, cyber solution
 Hybrid 5G-Tactical Mesh Network live in a multi-domain environment — a significant step toward ensuring the Department of Defense has seamless access to critical information.
 
-The U.K. Ministry of Defence (MOD) has awarded Lockheed Martin (NYSE: LMT) a research and development contract to provide a secure, open source, ground-segment software solution to task, monitor and control its future space capabilities.
 
-The U.K. MOD’s BEROE programme will assist the MOD to understand how best to control its future ISTARI constellation of low orbit general purpose Earth observation satellites, further enhancing the U.K.’s multi-domain integration efforts.
+
+
 Over one hundred years ago, on August 16, 1912, Glenn L. Martin established the Glenn L. Martin Company in Los Angeles, California.
 Rotary and Mission Systems
 
 https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
+https://www.lockheedmartin.com/en-gb/index.html
 **Why do you want to work for Lockheed matrin**
 
-https://www.lockheedmartin.com/en-gb/index.html
+
 I feel Passionated about the country I grew up in, I want to Contrbute
 
 Difficult challenges , improve myslef
-dvancing scientific discovery and delivering innovative solutions that help our customers keep people safe.
+delivering innovative solutions that help our customers keep people safe.
 to make a meaningful difference
-Aim to be the top of your profcienty (show your ambition)
+Aim to be the top of your profcienty (show your ambition) (driven)
 
 
 今日会えたことに感謝している。
@@ -164,9 +165,16 @@ I have a Japanese Phrase
 (poltics) Don't have enough infomation(be confident in what you don't know_
 
 
+**Recent Projects**
 
+The U.K. MOD’s BEROE programme will assist the MOD to understand how best to control its future ISTARI constellation of low orbit general purpose Earth observation satellites, further enhancing the U.K.’s multi-domain integration efforts.
+
+The U.K. Ministry of Defence (MOD) has awarded Lockheed Martin (NYSE: LMT) a research and development contract to provide a secure, open source, ground-segment software solution to task, monitor and control its future space capabilities.
+
+The Cuber Kill Chain
 
 Why did you not stay with NG
+The UK’s 35th F-35 arrived in the UK in March 2024,
 
 # Tips
 Listen really carefully aobut the roile
@@ -188,7 +196,6 @@ Who am I working with (what specifc area of the customer will I work with)
 
 If I am Successful where can that lead me in the comapany (what could I be doing after the customer contract is finished?)
 
-Do we bring a pack lunch?
 
 What is the big targets for 2025?
 
@@ -200,6 +207,16 @@ Not done the task before
 Working anywhere is In Lockheed martin?
 ask if its similar to anything opther projects
 opinion based question
+
+
+Hi Tom, I wanted make sure I got back to you before the end of the day. Here are my quick thoughts.
+ 
+1. Okay but not sure if Paul can say
+2. Would reword this to come from the perspective if "where do you see us going if we do well ob this first contract". Good to mention "if I get the role"
+3. Don't aak this, too basic, little value from their side.
+4. Okay question, I wonder if you vould get this via research though? Or at least refer to a target you are aware they may have.
+5. Not a bad question but not sure Paul will be able to answer. It's the customer that needs DevOps engineers so that might cloud things.
+ 
 
 25 min interviews
 
@@ -235,19 +252,12 @@ Questions what do you want to know about
 8 year journey
 
 
-Hi Tom, I wanted make sure I got back to you before the end of the day. Here are my quick thoughts.
- 
-1. Okay but not sure if Paul can say
-2. Would reword this to come from the perspective if "where do you see us going if we do well ob this first contract". Good to mention "if I get the role"
-3. Don't aak this, too basic, little value from their side.
-4. Okay question, I wonder if you vould get this via research though? Or at least refer to a target you are aware they may have.
-5. Not a bad question but not sure Paul will be able to answer. It's the customer that needs DevOps engineers so that might cloud things.
- 
+
 
 
 most positive wording what are you trying to achieve with the customer
 
-
+Why do did you decide to work in defence
 Bring Laptop
 
 
