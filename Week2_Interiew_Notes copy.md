@@ -171,6 +171,8 @@ The U.K. MOD’s BEROE programme will assist the MOD to understand how best to c
 
 The U.K. Ministry of Defence (MOD) has awarded Lockheed Martin (NYSE: LMT) a research and development contract to provide a secure, open source, ground-segment software solution to task, monitor and control its future space capabilities.
 
+Lockheed Martin (NYSE: LMT) today completed the delivery of the 51st and 52nd F-35As to the Royal Norwegian Air Force, making Norway the first F-35 partner nation to fulfill its program of record....
+
 The Cuber Kill Chain
 
 Why did you not stay with NG
@@ -288,3 +290,5 @@ Comptency questions
 
 
 Send extra questions to Nish
+
+

@@ -91,7 +91,7 @@ Hint: Are you the "ubuntu" user when you run user data?
 contains an operating system, pre installed software, configuration settings
 
 **How do they work?**
->They can be premadw or customised, When creating an instance you choose one to create the VM.
+>They can be premade or customised, When creating an instance you choose one to create the VM.
 
 **Why are they helpful for a business?**
 >Automation, reduce human error, allows for consistent

@@ -17,7 +17,7 @@ _____
 
 >**What is a reverse proxy? Why implement one?**
 >
->>A service, server or app that sits in-front of other servers that catches and inpects incoming requets before forwarding them to the web server and then returning the server's response.
+>>A service, server or app that sits in-front of other servers that catches and inspects incoming requests before forwarding them to the web server and then returning the server's response.
 >
 >>**Why are they useful?:**
 >* Improve Security: Hides backend servers IP addresses, can implement SSL/TLS encryption, Blocks malicious requests and enforce security monitoring

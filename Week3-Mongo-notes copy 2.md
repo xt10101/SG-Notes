@@ -8,7 +8,7 @@ Links to places(headers) in the document
 _____
 
 
-
+cd SG 
 
 #### MongoDB Manual Installation Steps:
 
@@ -72,7 +72,7 @@ sudo systemctl status mongod
 
 
 
->10. Swap over to the machine that is running the App. Create the enviormental variable DB_HOST to point the machine running the the Mongo database. Use the public IP address of the machine running the database.
+>10. Swap over to the machine that is running the App. Create the enviromental variable DB_HOST to point the machine running the the Mongo database. Use the public IP address of the machine running the database.
 
 `export DB_HOST=mongodb://<IP-Address>:27017/posts`
 

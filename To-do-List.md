@@ -39,4 +39,82 @@ scp -i ~/.ssh/tech503-tom-aws-key.pem nodejs20-sparta-test-app.zip ubuntu@ec2-18
 
 
 
-Verify that the DB Install script works - Then Manually do the remaining steps(change config, start mongd, change DB_HOST env var on app instance 3. improve DB script, 4 Automate Envar script)
+1. (MAIN TASK) Redo the deployment of the ASG + LB. Document the process along the way
+Make sure to have a number of screenshots of the console during the process
+If you want to explain the concepts you can do, but main focus is the steps
+Should be good enough to be used by others who did not do the session with us
+1. (OPTIONAL) Deploy the ASP.NET application Nish set yesterday.
+See the following card: Planner - Deploy ASP.NET API
+Reminder, must be on a PRIVATE GitHub Repo
+1. (OPTIONAL) Deploy the ASP.NET API in an ASG
+Documentation optional for that, will be similar to Sparta app ASG
+
+
+Explore the Documentation:
+
+Go through the project’s documentation to understand how the API works (ignore the Docker setup instructions for now). The API is already deployed on Azure, so you can test it there. NOTE: There is no external database, it uses an in-memory database, do don't worry about creating another instance for the database
+
+Create a Private Repository:
+
+Create a new private repository on GitHub and upload the project code into it.
+
+
+Write a Bash Script:
+Your Bash script should include the following tasks:
+
+Update system packages
+
+Install required dependencies: Nginx, Git, Curl, Unzip, .NET SDK
+
+Clone the private repository using your GitHub Personal Access Token (PAT) — do not use SSH. For more details on generating a PAT, refer here.
+
+Publish the ASP.NET API (publish the app before proceeding further).
+
+Delete the cloned repository after publishing the app.
+
+Set up Nginx as a reverse proxy to route requests to the published API.
+
+Run the published app using the appropriate process manager (e.g., systemctl or nohup).
+
+
+
+
+
+
+
+Test Topics
+App Deployment
+DB Deployment
+User Data
+Images/AMIs
+Autoscaling
+Load Balancing
+Launch Templates
+
+
+
+Catherine Moncrieff
+CMoncrieff@spartaglobal.com
+Sparta Main phone number
+Address: Sparta Head office
+Title: Head of HR
+ 
+ 
+6th Floor,
+125 London Wall,
+London,
+EC2Y 5AS
++44 (0) 207 048 4022
+ 
+ Quick 1-2 sentence explanation of what VPCs are
+Diagram that helps explain how they work
+How do VPCs help a business?
+How do they help DevOps?
+Why did AWS feel the need to introduce VPCs?
+Explain the components:
+Subnets
+Public vs Private Subnets
+CIDR Blocks
+Internet Gateways
+Route Table/s
+SG and how SGs work on an INSTANCE level 
