@@ -105,16 +105,3 @@ Title: Head of HR
 London,
 EC2Y 5AS
 +44 (0) 207 048 4022
- 
- Quick 1-2 sentence explanation of what VPCs are
-Diagram that helps explain how they work
-How do VPCs help a business?
-How do they help DevOps?
-Why did AWS feel the need to introduce VPCs?
-Explain the components:
-Subnets
-Public vs Private Subnets
-CIDR Blocks
-Internet Gateways
-Route Table/s
-SG and how SGs work on an INSTANCE level 

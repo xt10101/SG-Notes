@@ -5,7 +5,7 @@ cd ..
 cd home/ubuntu/
 
 
-export DB_HOST=mongodb://3.254.123.253:27017/posts
+export DB_HOST=mongodb://10.0.1.37:27017/posts
 
 cd app
 
