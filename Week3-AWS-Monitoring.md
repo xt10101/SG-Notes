@@ -24,20 +24,20 @@ _____
 
 #### AWS Alarm Creation Steps:
 
-Go to CloudWatch Dashboard
+1. Go to CloudWatch Dashboard. In the left-hand menu, click on "Dashboards"
 
-n the left-hand menu, click on Dashboards
+2. If you have not created a Dashboard yet click "Create Dashboard" and give it a name and choose a widget configuration and press "next"
 
-Find the widget that displays the metric you want to create an alarm for
+3. to add CPU tracking click "Aggregated by Instance Type" and tick "CPUUtilization". Then press Create Widget.
 
-Click the three-dot menu (⋮) in the top-right corner of the widget, click view in metrics
+4. Go to your instance Click on the monitoring then Add to Dashboard
+![add to dahsbaord lcoation](Imagenotes/スクリーンショット%202025-04-08%20100612.png)
+   
+#Find the widget that displays the metric you want to create an alarm for
 
-In graphed metrics press the alarm icon
+5. Click the three-dot menu (⋮) in the top-right corner of the widget, click view in metrics, In graphed metrics press the alarm icon Select "Create Alarm"
 
-Select "Create Alarm"
-
-
-Choose the:
+6. Choose the:
 
 Threshold type (Static or Anomaly detection)
 

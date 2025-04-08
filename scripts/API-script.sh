@@ -26,11 +26,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt install git -y
  
 # Clone the app repo
 
-git clone https://xt10101:11BQZATXI06hxj09s0tG4r_EsNMuClHdSwVaHmMmMzVkjfhcvr4hkVecXqjGXd0EhIVQB5O7D45Vhcjvp1@github.com/xt10101/Private_Code_Bank.git
-git clone https://11BQZATXI06hxj09s0tG4r_EsNMuClHdSwVaHmMmMzVkjfhcvr4hkVecXqjGXd0EhIVQB5O7D45Vhcjvp1@github.com/xt10101/Private_Code_Bank.git
 
-git clone https://<PAT>@github.com/GibClayton/ASP.NET-API.git
- 
 # Change directory to the app
 cd ASP.NET-API
  
