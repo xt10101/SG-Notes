@@ -66,3 +66,20 @@ Integration with other tools
 built in CI/CD
 
 Jenkins Pipeline - define the entire software development process as code
+
+
+github actions
+
+push to branch checks
+
+actions - new workflow
+.net template
+template for building and testing .net core project
+
+yaml, jon: tasks to run when doucemnt is executed
+
+action package?
+
+github action libary 
+
+create statis badge, can be added tp readme
