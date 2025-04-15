@@ -25,24 +25,22 @@ sudo DEBIAN_FRONTEND=noninteractive apt install dotnet-sdk-8.0 -y
 sudo DEBIAN_FRONTEND=noninteractive apt install git -y
  
 # Clone the app repo
-
+git clone https://xt10101:<<PAT>>@github.com/xt10101/Private_Code_Bank.git
 
 # Change directory to the app
-cd ASP.NET-API
+
  
+mv Private_Code_Bank/sparta-api-main/sparta-api-main ~
+rm -rf Private_Code_Bank/
 
 
- git 
 # Change directory to the unzipped app
 cd sparta-api-main
  
 # Publish the app
 sudo dotnet publish -c Release -o /var/www/ --runtime linux-x64
  
-# Delete the unzipped app
-sudo rm -r ~/ASP.NET-API/
- 
-# Change directory to the published app
+ # Change directory to the published app
 cd /var/www/
  
 # Run the app

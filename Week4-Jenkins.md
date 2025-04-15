@@ -160,11 +160,11 @@ ssh -o "StrictHostKeyChecking=no" ubuntu@<instance-address> <<EOF
    pm2 start app.js
 EOF
 ```
->![SSH Agent](Imagenotes/スクリーンショット%202025-04-10%20155151.png)
+>![SSH Agent](Imagenotes/スクリーンショット%202025-04-11%20152524.png)
 
->6. In your merge job go to "Post-build Actions" and add a "Build other projects" option then add your deploy job.
+>6. In your merge job go to "Post-build Actions" and add a "Build other projects" option then add your deploy job. (make sure this action run after the first one)
 
->![SSH Agent](Imagenotes/スクリーンショット%202025-04-10%20160006.png)
+>![SSH Agent](Imagenotes/スクリーンショット%202025-04-11%20152538.png)
 
 >7. To test the code deployment push a change from your dev branch
 

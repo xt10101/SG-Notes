@@ -16,7 +16,7 @@ https://github.com/nishman89/sparta-api
 
 >Continuous Integration:
 * Best practice requiring developer to commit there code multiple times a day
-* commits and automatically test builds and deploys.
+* commits and automatically test builds.
 * help automate and detect small problems earlier (higher code quality)
 
 
